@@ -7,11 +7,15 @@ namespace P_Speak
         static void Main(string[] args)
         {
             Console.WriteLine("What type of animal would you like to know the sound of?(dog, cat, or giraffe)");
-            string answer = Console.ReadLine();
-
-            if (answer.ToLower() == "dog" || answer.ToLower() == "cat" || answer.ToLower() == "giraffe")
+            string answer = Console.ReadLine().ToLower();
+            string animalsound = Speak(answer);
+            if (answer == "dog" || answer == "cat" || answer == "giraffe")
             {
-                Console.WriteLine(Speak(answer));
+                Console.WriteLine($"A {answer} makes a {animalsound}!");
+            }
+            else
+            {
+                Console.WriteLine("Sorry that animal wasn't found, Goodbye!");
             }
         }
 
@@ -21,19 +25,16 @@ namespace P_Speak
             if (animal == "dog")
             {
                 sound = "Woof";
-                return sound;
             }
             else if (animal == "cat")
             {
                 sound = "Meow";
-                return sound;
             }
-            else if (animal == "Giraffe")
+            else if (animal == "giraffe")
             {
                 sound = "Pft";
-                return sound;
             }
-            return "Invalid";
+            return sound;
         }
 
     }
