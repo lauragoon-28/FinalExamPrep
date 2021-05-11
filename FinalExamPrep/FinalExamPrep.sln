@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P-Speak", "P-Speak\P-Speak.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework6Practice", "Homework6Practice\Homework6Practice.csproj", "{B2149204-226E-4BF9-81B7-93FD24A9DE64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions", "Functions\Functions.csproj", "{B7E2FF7D-0005-4CC6-BD9E-2274647F3B2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B2149204-226E-4BF9-81B7-93FD24A9DE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2149204-226E-4BF9-81B7-93FD24A9DE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2149204-226E-4BF9-81B7-93FD24A9DE64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7E2FF7D-0005-4CC6-BD9E-2274647F3B2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E2FF7D-0005-4CC6-BD9E-2274647F3B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E2FF7D-0005-4CC6-BD9E-2274647F3B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E2FF7D-0005-4CC6-BD9E-2274647F3B2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

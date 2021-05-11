@@ -96,7 +96,6 @@ namespace Homework6Practice
             double tax = subtotal * taxRate;
             double total = subtotal + tax;
             Console.WriteLine($"Subtotal: {subtotal.ToString("C")} Tax:{tax.ToString("C")} Total: {total.ToString("C")}");
-            return;
         }
     }
 }
